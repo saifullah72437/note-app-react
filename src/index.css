@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy-Medium, sans-serif;
+}
+
+::selection{
+  color: rgb(233, 184, 25);
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+#myBtn{
+  transition: all ease-in-out 0.3s;
+}
